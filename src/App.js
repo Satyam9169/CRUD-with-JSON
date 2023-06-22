@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AddStudent from "./student/AddStudent";
+import EditStudent from "./student/EditStudent";
+import StudentList from "./student/StudentList";
+import { Routes, Route } from "react-router-dom";
+import ViewStudent from "./student/ViewStudent";
+import DeleteStudent from "./student/DeleteStudent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        <Routes>
+          <Route path="/" element={<StudentList />}></Route>
+          <Route path="/student/add" element={<AddStudent />}></Route>
+          <Route path="/student/edit/:id" element={<EditStudent />}></Route>
+          <Route path="/student/detail/:id" element={<ViewStudent />}></Route>
+          <Route path="/student/delete/:id" element={<DeleteStudent />}></Route>
+        </Routes>
+      </div>
+    </>
   );
 }
 

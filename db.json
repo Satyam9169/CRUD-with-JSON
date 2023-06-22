@@ -1,0 +1,40 @@
+{
+  "student": [
+    {
+      "id": 2,
+      "first": "satyam sir",
+      "last": "agrahari",
+      "phone": "9169184165"
+    },
+    {
+      "first": "Anuj",
+      "last": "Chauhan",
+      "phone": "9041835758",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "first": "sunil ",
+      "last": "yadav",
+      "phone": "7856321456"
+    },
+    {
+      "first": "amar",
+      "last": "jeet",
+      "phone": "9453342996",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "first": "anil",
+      "last": "yadav",
+      "phone": "1356488"
+    },
+    {
+      "id": 7,
+      "first": "Shubh",
+      "last": "Tandon",
+      "phone": "1236547898"
+    }
+  ]
+}
